@@ -27,7 +27,7 @@ The repository contains:
   - Some simulated data BridgeAccData.mat for the examples in Documentation.mlx.
 
 
-## Reference
+## References
 
 [1] Antoine Liutkus. Scale-Space Peak Picking. [Research Report] Inria Nancy - Grand Est (Villers-lès-Nancy, France). 2015. .
 
