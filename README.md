@@ -1,8 +1,8 @@
-# Operational modal analysis with single accelerometer
+# Operational modal analysis with a single accelerometer
 
 
 ## Summary
-This repository includes a Matlab function to identify the eigenfrequencies and modal damping ratios of a line-like structure using only one accelerometer. Because a single sensor is used, it is not possible to identify the mode shapes. All the data used herein are simulated. I am using the peak picking function “pickpeaks” developed by [1] and available in [2]. The manual pick-peaking algorithm was proposed by [3] in matlab file exchange.  I am, therefore, indebted to [1-3] for their previous works. 
+This repository includes a Matlab function to identify the eigenfrequencies and modal damping ratios of a line-like structure using only one accelerometer. Because a single sensor is used, it is not possible to identify the mode shapes. All the data used herein are simulated. I am using the peak picking function “pickpeaks” developed by [1] and available in [2]. The manual pick-peaking algorithm was proposed by [3] in the Matlab file exchange.  I am, therefore, indebted to [1-3] for their previous works. 
 
 The method applied is described as follows:
 
@@ -14,9 +14,9 @@ The method applied is described as follows:
 
 (4) An exponential decay function is fitted to the IRF to estimate the damping ratios and obtain an improved estimate of the eigenfrequencies, as the peak-picking method is not always appropriate.
 
-The present approach should not be applied to structure with closely-spaced modes, as the band-pas filter may not be able to split efficiently the two modal responses.
+The present approach should not be applied to structure with closely-spaced modes, as the band-pass filter may not be able to split efficiently the two modal responses.
 
-A similar algorithm was used in [4] to identify the modal damping ratios and eigen-frequencies from traffic-induced vibrations. In [4], no advanced pick-peaking algorithm was used as we already knew what were the eigen-frequencies of the structure.
+A similar algorithm was used in [4] to identify the modal damping ratios and eigenfrequencies from traffic-induced vibrations. In [4], no advanced pick-peaking algorithm was used as we already knew what were the eigenfrequencies of the structure.
 
 
 ## Content
