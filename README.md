@@ -1,5 +1,7 @@
 # Operational modal analysis with a single accelerometer
 
+[![View Operational modal analysis with a single accelerometer on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://se.mathworks.com/matlabcentral/fileexchange/86718-operational-modal-analysis-with-a-single-accelerometer)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4487060.svg)](https://doi.org/10.5281/zenodo.4487060)
 
 ## Summary
 This repository includes a Matlab function to identify the eigenfrequencies and modal damping ratios of a line-like structure using only one accelerometer. Because a single sensor is used, it is not possible to identify the mode shapes. All the data used herein are simulated. I am using the peak picking function “pickpeaks” developed by [1] and available in [2]. The manual pick-peaking algorithm was proposed by [3] in the Matlab file exchange.  I am, therefore, indebted to [1-3] for their previous works. 
