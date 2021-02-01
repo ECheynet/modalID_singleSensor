@@ -6,8 +6,11 @@ This repository includes a Matlab function to identify the eigenfrequencies and 
 The method applied is described as follows:
 
 (1) The first estimate of the eigenfrequencies is obtained by the classical peak-picking method.
+
 (2) A band-pass filter is applied to extract the modal response associated with the selected eigenfrequencies
+
 (3) The impulse-response function (IRF) is obtained by computing the autocorrelation function of each modal response.
+
 (4) An exponential decay function is fitted to the IRF to estimate the damping ratios and obtain an improved estimate of the eigenfrequencies, as the peak-picking method is not always appropriate.
 
 The present approach should not be applied to structure with closely-spaced modes, as the band-pas filter may not be able to split efficiently the two modal responses.
