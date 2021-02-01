@@ -2,7 +2,7 @@
 
 
 ## Summary
-This repository includes a Matlab function to identify the eigenfrequencies and modal damping ratios of a line-like structure using only one accelerometer. Because a single sensor is used, it is not possible to identify the mode shapes. All the data used herein are simulated. I am using the peak picking function “pickpeaks” developed by [1] and available in [2], which was much more efficient than the Matlab function "findpeaks" for this purpose. The manual pick-peaking algorithm was proposed by [3] in matlab file exchnge.  I am, therefore, indebted to [1-3] for their previous works. 
+This repository includes a Matlab function to identify the eigenfrequencies and modal damping ratios of a line-like structure using only one accelerometer. Because a single sensor is used, it is not possible to identify the mode shapes. All the data used herein are simulated. I am using the peak picking function “pickpeaks” developed by [1] and available in [2]. The manual pick-peaking algorithm was proposed by [3] in matlab file exchange.  I am, therefore, indebted to [1-3] for their previous works. 
 
 The method applied is described as follows:
 
